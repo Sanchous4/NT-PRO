@@ -1,0 +1,62 @@
+input:not(input[type='number']) {
+    color: white;
+    padding: 2px 5px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.modal {
+    position: fixed;
+    min-width: 50%;
+
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    top: 100px;
+    margin: auto;
+}
+
+.modal__header {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.modal__header > button {
+    border: transparent;
+    background: none;
+}
+
+.modal__info {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 10px;
+}
+
+.modal__info > * {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.modal__info__input {
+    width: 100%;
+}
+
+.modal__info__buttons {
+    justify-content: end;
+}
+
+.button_cancel {
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+.button_submit {
+    border: 1px solid #007bff;
+    background-color: #007bff;
+}

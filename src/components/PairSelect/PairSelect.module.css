@@ -1,0 +1,16 @@
+.select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url('./arrowDown.svg');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+
+    cursor: pointer;
+    font-size: 26px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 20px;
+}

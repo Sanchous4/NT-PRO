@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-wrap: break-word;
+}
+
+.table > tr {
+    vertical-align: top;
+}
+
+.table__header > tr > th {
+    padding: 20px 0 5px 0;
+    text-transform: capitalize;
+    font-weight: normal;
+    text-align: center;
+}
+
+.table__header {
+    border-bottom: 3px solid rgba(128, 128, 128, 0.3);
+}
+
+.table__body > tr > td {
+    padding-top: 10px;
+    text-align: center;
+}
